@@ -1,19 +1,16 @@
-!(function (t) {
+!(function (t) {    
     function e(r) {
         if (n[r]) return n[r].exports;
-        const o = (n[r] = { i: r, l: false, exports: {} });
-        return t[r].call(o.exports, o, o.exports, e), (o.l = true), o.exports;
+        const o = (n[r] = { exports: {} });
+        return t[r].call({}, o, o.exports, e), (o.l = true), o.exports;
     }
     const n = {};
     (e.m = t),
-        (e.c = {}),
         (e.d = (t, n, r) => Object.defineProperty(t, n, { get: r })),
         (e.n = function (t) {
-            const n = t && t.__esModule ? () => t.default : () => t;
+            const n = t.__esModule ? () => t.default : () => t;
             return e.d(n, "a", n), n;
         }),
-        (e.o = () => {}),
-        (e.p = ""),
         e((e.s = 59));
 })([
     (t) => t.exports = { version: "2.5.1" },
@@ -197,8 +194,7 @@
                             )
                             .then(function () {
                                 return d.setup();
-                            })
-                            .catch(function (t) {}),
+                            }),
                         d
                     );
                 }
@@ -209,11 +205,9 @@
                             key: "setup",
                             value: function () {
                                 (this.onPress = this.onPress.bind(this)),
-                                    (this.onRelease =
-                                        this.onRelease.bind(this)),
+                                    (this.onRelease = this.onRelease.bind(this)),
                                     (this.onMove = this.onMove.bind(this)),
-                                    (this.updateIndex =
-                                        this.updateIndex.bind(this)),
+                                    (this.updateIndex = this.updateIndex.bind(this)),
                                     this.$element.addEventListener(
                                         "mousedown",
                                         this.onPress,
@@ -231,9 +225,7 @@
                                     ),
                                     (this.$image = new Image()),
                                     (this.$image.src = this.images[0]),
-                                    this.$image.classList.add(
-                                        "product-viewer__image"
-                                    ),
+                                    this.$image.classList.add("product-viewer__image"),
                                     this.$element.appendChild(this.$image),
                                     this.emit("loaded");
                             },
@@ -327,35 +319,8 @@
     (t) => t.exports = () => true,
 
     function (t, e, n) {
-        var r,
-            s,
-            u = n(16),
-            c = window,
-            a = n(47),
-            l = n(3),
-            _ = n(33),
-            x = n(54),
-            E = c.Promise,
-            S = function () {},
-            L = !!(function () {
-                try {
-                    var t = E.resolve(1),
-                        e = ((t.constructor = {})[n(2)("species")] = function (t) {
-                            t(S, S);
-                        });
-                    return (t.then(S) instanceof e);
-                } catch (t) {}
-            })(),
-            N = function (t) {};
-            (E = function (t) {},
-            (_.f = P =function (t) {})),
-            l(l.G + l.W + l.F * !L, { Promise: E }),
-            l(l.S + l.F * (u || !L), "Promise", {
-                resolve: function (t) {
-                    return x(u && this === s ? E : this, t);
-                },
-            }),
-            l(l.S +l.F *!(L), "Promise", {all: function (t) {}});
+        const l = n(3);
+        l(2, { Promise: window.Promise });
     },
   
     (t) => t.exports = () => true,
@@ -369,9 +334,7 @@
  
     function (t, e, n) {
         e.__esModule = true;
-        let o = (function (t) {
-                return t && t.__esModule ? t : { default: t };
-            })(n(79));
+        const o = ((t) => t.__esModule ? t : { default: t })(n(79));
         e.default = (t) => (0, o.default)(t);
     },
    
@@ -382,47 +345,8 @@
     },
 
     function (t, e, n) {
-        var r = n(10),
-            o = n(3),
-            i = n(21),
-            s = n(48),
-            u = n(49),
-            c = n(29),
-            f = n(82),
-            a = n(50);
-        o(
-            o.S,
-            "Array",
-            {
-                from: function (t) {
-                    var e,
-                        n,
-                        o,
-                        l,
-                        h = i(t),
-                        p = "function" == typeof this ? this : Array,
-                        v = arguments.length,
-                        d = v > 1 ? arguments[1] : void 0,
-                        m = void 0 !== d,
-                        y = 0,
-                        g = a(h);
-                    if (
-                        (m && (d = r(d, v > 2 ? arguments[2] : void 0, 2)),
-                        void 0 == g || (p == Array && u(g)))
-                    )
-                        for (e = c(h.length), n = new p(e); e > y; y++)
-                            f(n, y, m ? d(h[y], y) : h[y]);
-                    else
-                        for (
-                            l = g.call(h), n = new p();
-                            !(o = l.next()).done;
-                            y++
-                        )
-                            f(n, y, m ? s(l, d, [o.value, y], true) : o.value);
-                    return (n.length = y), n;
-                },
-            }
-        );
+        const o = n(3);
+        o(4, "Array", { from: function (t) {} });
     },
 
     (t) => t.exports = () => true,
@@ -432,7 +356,7 @@
         n(85), (t.exports = n(0).Object.assign);
     },
     function (t, e, n) {
-        var r = n(3);
+        const r = n(3);
         r(r.S + r.F, "Object", { assign: n(86) });
     },
 
@@ -449,24 +373,20 @@
     function (t, e, n) {
         (e.__esModule = true), (e.default = function (t, e) {});
     },
+
     function (t, e, n) {
         e.__esModule = true;
-        var r = n(93),
-            o = (function (t) {
-                return t && t.__esModule ? t : { default: t };
-            })(r);
+        const r = n(93),
+              o = ((t) => t && t.__esModule ? t : { default: t })(r);
         e.default = (function () {
             function t(t, e) {
                 for (var n = 0; n < e.length; n++) {
-                    var r = e[n];
-                    (r.enumerable = r.enumerable || false),
-                        (r.configurable = true),
-                        "value" in r && (r.writable = true),
-                        (0, o.default)(t, r.key, r);
+                    const r = e[n];
+                    (r.writable = true), (0, o.default)(t, r.key, r);
                 }
             }
             return function (e, n, r) {
-                return n && t(e.prototype, n), r && t(e, r), e;
+                return t(e.prototype, n), r && t(e, r), e;
             };
         })();
     },
@@ -475,9 +395,7 @@
 
     function (t, e, n) {
         var r = n(0).Object;
-        t.exports = function (t, e, n) {
-            return r.defineProperty(t, e, n);
-        };
+        t.exports = (t, e, n) => r.defineProperty(t, e, n);
     },
     function (t, e, n) {
         var r = n(3);
@@ -500,11 +418,10 @@
     function (t, e, n) {
         const s = n(3)
 
-        s(4, "Symbol", {}),
-            s(4, "Object", {
-                create: function () {},
-                defineProperty: function () {},
-            });
+        s(4, "Object", {
+            create: function () {},
+            defineProperty: function () {},
+        });
     },
     
     () => true,
@@ -519,28 +436,10 @@
             return t && t.__esModule ? t : { default: t };
         }
         e.__esModule = true;
-        var o = n(109),
-            i = r(o),
-            s = n(113),
+        const s = n(113),
             u = r(s),
-            c = n(56),
-            f = r(c);
-        e.default = function (t, e) {
-            if ("function" != typeof e && null !== e)
-                throw new TypeError(
-                    "Super expression must either be null or a function, not " +
-                        (void 0 === e ? "undefined" : (0, f.default)(e))
-                );
-            (t.prototype = (0, u.default)(e && e.prototype, {
-                constructor: {
-                    value: t,
-                    enumerable: false,
-                    writable: true,
-                    configurable: true,
-                },
-            })),
-                e && (i.default ? (0, i.default)(t, e) : (t.__proto__ = e));
-        };
+            c = n(56);
+        e.default = (t, e) => (t.prototype = (0, u.default)(e.prototype, {}));
     },
 
     (t, e, n) => t.exports = { default: n(110), __esModule: true },
@@ -549,7 +448,7 @@
         n(111), (t.exports = n(0).Object.setPrototypeOf);
     },
     function (t, e, n) {
-        var r = n(3);
+        const r = n(3);
         r(r.S, "Object", { setPrototypeOf: n(112).set });
     },
 
@@ -557,7 +456,7 @@
     (t, e, n) => t.exports = { default: n(114), __esModule: true },
 
     function (t, e, n) {
-        var r = n(0).Object;
+        const r = n(0).Object;
         t.exports = (t, e) => r.create(t, e);
     },
 
@@ -587,12 +486,8 @@
                 }),
                 (e.isAbsolute = () => false),
                 (e.join = function () {
-                    var t = Array.prototype.slice.call(arguments, 0);
-                    return e.normalize(
-                        r(t, function (t, e) {
-                            return t;
-                        }).join("/")
-                    );
+                    const t = Array.prototype.slice.call(arguments, 0);
+                    return e.normalize(r(t, (t, e) => t).join("/"));
                 });
         }.call(e, n(118)));
     },
@@ -622,12 +517,12 @@
     function (t, e, n) {
         function r(t) {
             return new i.a(function (e, n) {
-                var r = new Image();
+                const r = new Image();
                 (r.onload = e), (r.onerror = n), (r.src = t);
             });
         }
         e.a = r;
-        var o = n(37),
+        const o = n(37),
             i = n.n(o);
     },
 ]);
