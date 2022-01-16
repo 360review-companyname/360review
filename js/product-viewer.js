@@ -1,4 +1,5 @@
 !(function (t) {    
+    // debugger
     function e(r) {
         if (n[r]) return n[r].exports;
         const o = (n[r] = { exports: {} });
@@ -13,15 +14,11 @@
         }),
         e((e.s = 59));
 })([
-    (t) => t.exports = { version: "2.5.1" },
-    () => 'done',
-    (t) => (t.exports = (t) => (true[t] = window.Symbol[t])).store = true,
-
+    () => true,
+    () => true,
+    () => true,
     function (t, e, n) {
-
-        const r = window,
-            o = n(0),
-            i = n(10),
+        const o = n(0),
             u = function (t, e, n) {
                 var c,
                     f,
@@ -29,11 +26,10 @@
                     l = t & u.F,
                     h = t & u.G,
                     p = t & u.S,
-                    v = t & u.P,
                     d = t & u.B,
                     m = t & u.W,
                     y = h ? o : o[e] || (o[e] = {}),
-                    _ = h ? r : p ? r[e] : (r[e] || {}).prototype;
+                    _ = h ? window : p ? window[e] : {}.prototype;
                 h && (n = e);
                 for (c in n)
                     ((f = !l && _ && void 0 !== _[c]) && c in y) ||
@@ -53,82 +49,74 @@
                                 : a));
             };
 
-            (u.F = 1),
             (u.G = 2),
             (u.S = 4),
-            (u.W = 32),
             (t.exports = u);
     },
-
-    (t, e) => e.f = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = true,  
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => false,
-    () => true,
-    (t) => t.exports = () => {return {}},
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    () => true,
-    (t) => t.exports = Object.keys,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
     () => true,
     () => true,
     () => true,
     () => true,
     () => true,
     () => true,
-    (t) => t.exports = () => true,
-    () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = ["constructor","hasOwnProperty","isPrototypeOf","propertyIsEnumerable","toLocaleString","toString","valueOf"],
     () => true,
     () => true,
-    (t, e) => e.f = true,
-    (t) => t.exports = () => true,
-    (t, e, n) => t.exports = { default: n(60), __esModule: true },
     () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = true,  
     () => true,
-    (t) => t.exports = () => true,
     () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t, e) => t.exports = (t,e) => e,
-    (t) => t.exports = () => true,
-
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    //55
+    () => true,
+    (t, e, n) => n(101),
+    () => true,
+    () => true,
     function (t, e, n) {
-        function r() {}
-        r(n(99))
-    },
-
-    (t, e) => e.f = () => true,
-    (t, e) => e.f = () => true,
-
-    function (t, e, n) {
-        var r = n(37),
+        const r = { default: window.Promise, __esModule: true },
             o = n.n(r),
             i = n(78),
             s = n.n(i),
-            u = n(83),
+            u = { default: n(84), __esModule: true },
             c = n.n(u),
-            f = n(87),
+            f = {},
             a = n.n(f),
             l = n(91),
             h = n.n(l),
@@ -136,17 +124,16 @@
             v = n.n(p),
             d = n(96),
             m = n.n(d),
-            y = n(108),
+            y = n(102),
             g = n.n(y),
-            _ = n(116),
-            b = (n.n(_), n(117)),
+            _ = {},
+            b = (n.n(_), n(104)),
             x = n.n(b),
-            w = n(119),
+            w = n(105),
             O = n.n(w),
-            E = n(120),
-            j = (n.n(E), n(121)),
+            E = n(106),
+            j = (n.n(E), () => true),
             S = n.n(j),
-            P = n(122),
             L = (function (t) {
                 function e(t) {
                     var n = t.element,
@@ -182,19 +169,11 @@
                         (d.images = []
                             .concat(s()(Array(v).keys()))
                             .map(function (t) {
-                                var e = "" + u + O()(t + 1, 2, "0") + l;
+                                const e = "" + u + O()(t + 1, 2, "0") + l;
                                 return x.a.join(r, e);
                             })),
                         d.$element.classList.add("product-viewer"),
-                        o.a
-                            .all(
-                                d.images.map(function (t) {
-                                    return Object(P.a)(t);
-                                })
-                            )
-                            .then(function () {
-                                return d.setup();
-                            }),
+                        o.a.all(d.images.map((t) => window.Promise)).then(() => d.setup()),
                         d
                     );
                 }
@@ -306,78 +285,55 @@
             (e.default = L);
     },
     function (t, e, n) {
-        n(38), n(23), n(46), n(69), n(76), n(77), (t.exports = n(0).Promise);
+        n(69), (t.exports = n(0).Promise);
     },
-
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-
-    function (t, e, n) {
-        const l = n(3);
-        l(2, { Promise: window.Promise });
-    },
-  
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
-    (t) => t.exports = () => true,
- 
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    //77
+    () => true,
     function (t, e, n) {
         e.__esModule = true;
-        const o = ((t) => t.__esModule ? t : { default: t })(n(79));
+        const o = ((t) => t)(n(79));
         e.default = (t) => (0, o.default)(t);
     },
-   
-    (t, e, n) => t.exports = { default: n(80), __esModule: true },
-
+    (t, e, n) => t.exports = { default: n(80)},
     function (t, e, n) {
-        n(23), n(81), (t.exports = n(0).Array.from);
+        n(3)(4, "Array", { from: function (t) {} }), (t.exports = n(0).Array.from);
     },
-
-    function (t, e, n) {
-        const o = n(3);
-        o(4, "Array", { from: function (t) {} });
-    },
-
-    (t) => t.exports = () => true,
-    (t, e, n) => t.exports = { default: n(84), __esModule: true },
-
-    function (t, e, n) {
-        n(85), (t.exports = n(0).Object.assign);
-    },
-    function (t, e, n) {
-        const r = n(3);
-        r(r.S + r.F, "Object", { assign: n(86) });
-    },
-
-    (t) => t.exports = Object.assign,
-    (t, e, n) => t.exports = { default: n(88), __esModule: true },
-
-    function (t, e, n) {
-        n(89), (t.exports = n(0).Object.getPrototypeOf);
-    },
-
     () => true,
     () => true,
-
+    () => true,
     function (t, e, n) {
-        (e.__esModule = true), (e.default = function (t, e) {});
+        n(3)(() => true, "Object", { assign: Object.assign }), (t.exports = n(0).Object.assign);
     },
-
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    () => true,
+    //90
+    () => true,
+    function (t, e) {
+        (e.__esModule = true), (e.default = function () {});
+    },
     function (t, e, n) {
         e.__esModule = true;
         const r = n(93),
-              o = ((t) => t && t.__esModule ? t : { default: t })(r);
+              o = ((t) => t)(r);
         e.default = (function () {
             function t(t, e) {
                 for (var n = 0; n < e.length; n++) {
@@ -386,113 +342,60 @@
                 }
             }
             return function (e, n, r) {
-                return t(e.prototype, n), r && t(e, r), e;
+                return t(e.prototype, n), r, e;
             };
         })();
     },
-
-    (t, e, n) => t.exports = { default: n(94), __esModule: true },
-
+    (t, e, n) => t.exports = { default: n(94)},
     function (t, e, n) {
-        var r = n(0).Object;
+        const r = n(0).Object;
         t.exports = (t, e, n) => r.defineProperty(t, e, n);
     },
-    function (t, e, n) {
-        var r = n(3);
-        r(r.S + r.F * !n(6), "Object", { defineProperty: n(4).f });
-    },
-    function (t, e, n) {
+    () => true,
+    function (t, e) {
         e.__esModule = true;
         e.default = (t) => t;
     },
-    (t, e, n) => t.exports = { default: n(98), __esModule: true },
-
+    () => true,
+    () => true,
+    () => true,
+    //100
+    () => true, 
     function (t, e, n) {
-        n(23), n(46), (t.exports = n(35).f("iterator"));
-    },
-    (t, e, n) => t.exports = { default: n(100), __esModule: true },
-
-    function (t, e, n) {
-        n(101), n(38), n(106), n(107), (t.exports = n(0).Symbol);
-    },
-    function (t, e, n) {
-        const s = n(3)
-
-        s(4, "Object", {
+        n(3)(4, "Object", {
             create: function () {},
             defineProperty: function () {},
         });
     },
-    
-    () => true,
-    () => true,
-    () => true,
-    () => true,
-    () => true,
-    () => true,
-    
     function (t, e, n) {
-        function r(t) {
-            return t && t.__esModule ? t : { default: t };
-        }
+        const r = (t) => t;
         e.__esModule = true;
-        const s = n(113),
+        const s = n(103),
             u = r(s),
             c = n(56);
         e.default = (t, e) => (t.prototype = (0, u.default)(e.prototype, {}));
     },
-
-    (t, e, n) => t.exports = { default: n(110), __esModule: true },
-
-    function (t, e, n) {
-        n(111), (t.exports = n(0).Object.setPrototypeOf);
-    },
-    function (t, e, n) {
-        const r = n(3);
-        r(r.S, "Object", { setPrototypeOf: n(112).set });
-    },
-
-    () => true,
-    (t, e, n) => t.exports = { default: n(114), __esModule: true },
-
-    function (t, e, n) {
-        const r = n(0).Object;
-        t.exports = (t, e) => r.create(t, e);
-    },
-
-    () => true,
-    () => true,
-
-    function (t, e, n) {
+    (t, e, n) => t.exports = { default: t.exports = (t, e) => n(0).Object.create(t, e) },
+    function (t, e) {
         (function () {
-            function n(t, e) {
+            function n(t) {
                 return t;
             }
-            function r(t, e) {
-                for (var n = [], r = 0; r < t.length; r++)
-                    e(t[r], r, t) && n.push(t[r]);
+            function r(t) {
+                for (var n = [], r = 0; r < t.length; r++) n.push(t[r]);
                 return n;
             }
                 (e.normalize = function (t) {
-                    var o = e.isAbsolute(t);
-                    return (
-                        (t = n(
-                            r(t.split("/"), function (t) {
-                                return !!t;
-                            }),
-                            !o
-                        ).join("/"))
-                    );
+                    const o = e.isAbsolute(t);
+                    return (t = n(r(t.split("/"), (t) => !!t), !o).join("/"));
                 }),
                 (e.isAbsolute = () => false),
                 (e.join = function () {
                     const t = Array.prototype.slice.call(arguments, 0);
                     return e.normalize(r(t, (t, e) => t).join("/"));
                 });
-        }.call(e, n(118)));
+        }.call(e, {}));
     },
-    () => true,
-
     function (t, e, n) {
         function r(t, e, n) {
             if (((t += ""), (e -= t.length) <= 0)) return t;
@@ -504,25 +407,18 @@
         }
         t.exports = r;
     },
-
     function (t, e) {
         function n() {}
-        (t.exports = n),
-            (n.EventEmitter = n),
-            (n.prototype.emit = function (t) {})
+        (t.exports = n), (n.EventEmitter = n), (n.prototype.emit = function (t) {})
     },
-
-    (t) => t.exports = () => true,
-
     function (t, e, n) {
         function r(t) {
             return new i.a(function (e, n) {
                 const r = new Image();
-                (r.onload = e), (r.onerror = n), (r.src = t);
+                r.onload = e, r.onerror = n, r.src = t;
             });
         }
         e.a = r;
-        const o = n(37),
-            i = n.n(o);
+        const i = n.n({ default: window.Promise, __esModule: true });
     },
 ]);
