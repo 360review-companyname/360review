@@ -1,5 +1,4 @@
-!(function (t) {    
-    // debugger
+!(function (t) { 
     function e(r) {
         if (n[r]) return n[r].exports;
         const o = (n[r] = { exports: {} });
@@ -12,7 +11,7 @@
             const n = t.__esModule ? () => t.default : () => t;
             return e.d(n, "a", n), n;
         }),
-        e((e.s = 59));
+        e((e.s = 58));
 })([
     () => true,
     () => true,
@@ -23,33 +22,13 @@
                 var c,
                     f,
                     a,
-                    l = t & u.F,
-                    h = t & u.G,
-                    p = t & u.S,
-                    d = t & u.B,
-                    m = t & u.W,
-                    y = h ? o : o[e] || (o[e] = {}),
-                    _ = h ? window : p ? window[e] : {}.prototype;
-                h && (n = e);
+                    y = u.G ? o : o[e] || (o[e] = {}),
+                    _ = window[e];
+                    u.G && (n = e);
                 for (c in n)
-                    ((f = !l && _ && void 0 !== _[c]) && c in y) ||
-                        ((a = f ? _[c] : n[c]),
-                        (y[c] =
-                            h && "function" != typeof _[c]
-                                ? n[c]
-                                : d && f
-                                ? i(a, r)
-                                : m && _[c] == a
-                                ? (function (t) {
-                                      const e = function (e, n, r) {
-                                          return new t(e, n, r);
-                                      };
-                                      return e.prototype, e;
-                                  })(a)
-                                : a));
+                    ((f = !u.F && _ && void 0 !== _[c]) && c in y) || ((a = f ? _[c] : n[c]), y[c] = a);
             };
 
-            (u.G = 2),
             (u.S = 4),
             (t.exports = u);
     },
@@ -105,34 +84,20 @@
     () => true,
     () => true,
     () => true,
-    (t, e, n) => n(70),
-    () => true,
+    (t, e, n) => n(69),
     () => true,
     function (t, e, n) {
-        const r = { default: window.Promise, __esModule: true },
-            o = n.n(r),
-            i = n(61),
-            s = n.n(i),
-            u = { default: n(64), __esModule: true },
-            c = n.n(u),
-            f = {},
-            a = n.n(f),
-            l = n(65),
-            h = n.n(l),
-            p = n(66),
-            v = n.n(p),
-            d = n(69),
-            m = n.n(d),
-            y = n(71),
-            g = n.n(y),
-            _ = {},
-            b = (n.n(_), n(73)),
-            x = n.n(b),
-            w = n(74),
-            O = n.n(w),
-            E = n(75),
-            j = (n.n(E), () => true),
-            S = n.n(j),
+        const o = n.n({ default: window.Promise, __esModule: true }),
+            s = n.n(n(60)),
+            c = n.n({ default: n(63), __esModule: true }),
+            a = n.n({}),
+            h = n.n(n(64)),
+            v = n.n(n(65)),
+            m = n.n(n(68)),
+            g = n.n(n(70)),
+            x = n.n((n.n({}), n(71))),
+            O = n.n(n(72)),
+            S = n.n(n.n(n(73)), () => true),
             L = (function (t) {
                 function e(t) {
                     var n = t.element,
@@ -272,7 +237,7 @@
                     ]),
                     e
                 );
-            })(E.EventEmitter);
+            })(n(73).EventEmitter);
         (L.easings = {
             EASE_LINEAR: S()(0, 0, 1, 1),
             EASE: S()(0.25, 0.1, 0.25, 1),
@@ -288,28 +253,26 @@
     },
     function (t, e, n) {
         e.__esModule = true;
-        const o = ((t) => t)(n(62));
+        const o = ((t) => t)({ default: n(62)});
         e.default = (t) => (0, o.default)(t);
     },
-    (t, e, n) => t.exports = { default: n(63)},
+    () => true,
     function (t, e, n) {
-        n(3)(4, "Array", { from: function (t) {} }), (t.exports = n(0).Array.from);
+        n(3)(4, "Array", { from: (t) => {} }), (t.exports = n(0).Array.from);
     },
     function (t, e, n) {
         n(3)(() => true, "Object", { assign: Object.assign }), (t.exports = n(0).Object.assign);
     },
     function (t, e) {
-        (e.__esModule = true), (e.default = function () {});
+        (e.__esModule = true), (e.default = () => {});
     },
     function (t, e, n) {
         e.__esModule = true;
-        const r = n(67),
-              o = ((t) => t)(r);
+        const o = ((t) => t)({ default: n(67)});
         e.default = (function () {
             function t(t, e) {
                 for (var n = 0; n < e.length; n++) {
-                    const r = e[n];
-                    (r.writable = true), (0, o.default)(t, r.key, r);
+                    (e[n].writable = true), (0, o.default)(t, e[n].key, e[n]);
                 }
             }
             return function (e, n, r) {
@@ -317,7 +280,7 @@
             };
         })();
     },
-    (t, e, n) => t.exports = { default: n(68)},
+    () => true,
     function (t, e, n) {
         const r = n(0).Object;
         t.exports = (t, e, n) => r.defineProperty(t, e, n);
@@ -328,38 +291,19 @@
     },
     function (t, e, n) {
         n(3)(4, "Object", {
-            create: function () {},
-            defineProperty: function () {},
+            create: () => {},
+            defineProperty: () => {},
         });
     },
     function (t, e, n) {
-        const r = (t) => t;
         e.__esModule = true;
-        const s = n(72),
-            u = r(s),
-            c = n(56);
-        e.default = (t, e) => (t.prototype = (0, u.default)(e.prototype, {}));
+        const c = n(56);
+        e.default = (t, e) => (t.prototype = (0, (t, e) => n(0).Object.create(t, e))(e.prototype, {}));
     },
-    (t, e, n) => t.exports = { default: t.exports = (t, e) => n(0).Object.create(t, e) },
     function (t, e) {
-        (function () {
-            function n(t) {
-                return t;
-            }
-            function r(t) {
-                for (var n = [], r = 0; r < t.length; r++) n.push(t[r]);
-                return n;
-            }
-                (e.normalize = function (t) {
-                    const o = e.isAbsolute(t);
-                    return (t = n(r(t.split("/"), (t) => !!t), !o).join("/"));
-                }),
-                (e.isAbsolute = () => false),
-                (e.join = function () {
-                    const t = Array.prototype.slice.call(arguments, 0);
-                    return e.normalize(r(t, (t, e) => t).join("/"));
-                });
-        }.call(e, {}));
+        e.join = function () {
+            return [...arguments].join('/');
+        };
     },
     function (t, e, n) {
         function r(t, e, n) {
@@ -372,18 +316,8 @@
         }
         t.exports = r;
     },
-    function (t, e) {
+    function (t) {
         function n() {}
-        (t.exports = n), (n.EventEmitter = n), (n.prototype.emit = function (t) {})
-    },
-    function (t, e, n) {
-        function r(t) {
-            return new i.a(function (e, n) {
-                const r = new Image();
-                r.onload = e, r.onerror = n, r.src = t;
-            });
-        }
-        e.a = r;
-        const i = n.n({ default: window.Promise, __esModule: true });
+        (t.exports = n), (n.EventEmitter = n), (n.prototype.emit = () => {})
     },
 ]);
